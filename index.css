@@ -1,0 +1,133 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap') */
+
+*{
+
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    box-sizing: border-box;
+    
+    
+        font-family: "Protest Riot", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+    
+      
+      
+    
+
+}
+
+
+
+.container1{
+    /* border: 1px solid red; */
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(9,0,77,0.65 ),
+     rgba(9,0,77,0.65 )), url('./back.webp');
+     background-size: cover;
+     background-position: center;
+     padding: 10px 8%;
+
+    
+
+
+}
+nav{
+    /* border: 1px solid rgb(0, 6, 128); */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    /* position:fixed !important; */
+    /* z-index: 1; */
+
+ 
+
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+nav ul{
+    /* border:1px solid green ; */
+    list-style: none;
+    width: 100%;
+    text-align: end;
+    padding-right: 60px;
+    padding-left: 120px;
+
+
+
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    transition: 0.8S ease;
+
+     
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.btn{
+    display: flex !important; 
+    align-items: center !important;
+    padding: 10px 20px !important;
+    border: 0 !important;
+    outline: 0 !important;
+    border-radius: 5px !important;
+    background: #f5168d !important;
+    color:#fff !important;
+    font-weight: 500 !important;
+    cursor: pointer !important;
+}
+
+.content{
+    margin-top: 15%;
+    color: #fff;
+    max-width: 620px;
+}
+.content form{
+    display: flex;
+    align-items: center;
+    background:#fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.grid-container{
+    /* border: 1px solid red; */
+    color: #fff;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+
+    
+}
+.grid-item{
+    /* border: 1px solid green; */
+
+
+}
+
+nav ul li:hover{
+    text-shadow: 0 0 10px yellow, 0 0 10px yellow, 0 0 20px yellow, 0 0 40px yellow, 0 0 80px yellow, 0 0 120px yellow, 0 0 120px yellow;
+}
+.container2{
+     /* border: 1px solid red; */
+     width: 100%;
+     min-height: 100vh;
+     background-image: linear-gradient(rgba(9,0,77,0.65 ),
+      rgba(9,0,77,0.65 )), url('./eggs.jpg');
+      background-size: cover;
+      background-position: center;
+      padding: 10px 8%;
+}
